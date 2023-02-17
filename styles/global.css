@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  -webkit-font-smoothing: antiliased;
+
+  --blue-color: #0B498F;
+  --tag-color: #6f6f6f;
+  --text-color: #898888;
+
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: bisque;
+
+}
+
+.container{
+  padding: 0 3rem;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.tags{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--tag-color);
+  
+  align-items: center;
+
+}

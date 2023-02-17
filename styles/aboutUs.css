@@ -1,0 +1,117 @@
+ .aboutUs {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .aboutUs_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .aboutUs-title{
+    margin-top: 2rem;
+  
+    font-size: 2rem ;
+    line-height: 3rem;
+    font-weight: 700;
+    text-align: center;
+
+    color: var(--blue-color);
+  }
+
+  .aboutUs-content{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: var(--text-color);
+    
+  }
+
+
+  .aboutUs-image{
+    align-self: center;
+    max-width: 27rem;
+    max-height: 27rem;
+    margin-top: 4rem;
+
+  }
+
+  .dental{
+    color: var(--text-color);
+  }
+
+  @media(min-width: 768px){
+    .aboutUs{
+      flex-direction: row;
+      display: flex;
+    }
+
+    .aboutUs_container{
+      display: flex;
+      align-items: flex-start;
+      margin-right: 9rem;
+    }
+
+
+
+
+    .aboutUs-title{
+      text-align: left;
+      font-size: 2.6rem;
+      
+    }
+
+    .aboutUs-content{
+      text-align: left;
+
+    }
+
+    .aboutUs-image{
+      margin-top: 0;
+      min-height: 30rem;
+    }
+
+
+
+  }
+
+  @media(min-width: 1024px){
+    .aboutUs{
+      margin-top: 15rem;
+    }
+
+    .aboutUs-image{
+      max-width: 42rem;
+      max-height: 40rem;
+
+    }
+  }
+
+  @media(min-width: 1200px){
+    .aboutUs-tag{
+      font-size: 2.4rem;
+
+    }
+
+    .aboutUs-title{
+      font-size: 3.6rem;
+      line-height: 5.5rem;
+    }
+
+    .aboutUs-content{
+      font-size: 1.8rem;
+      line-height: 2.7rem;
+    }
+
+    .aboutUs-image{
+      max-width: 55rem;
+      max-height: 48rem;
+    }
+  
+  }
+  
